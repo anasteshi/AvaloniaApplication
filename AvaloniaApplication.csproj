@@ -21,46 +21,27 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <AvaloniaResource Include="Assets/lock.PNG" />
-    <AvaloniaResource Include="Assets/monic.PNG" />
-    <AvaloniaResource Include="Assets/settings.PNG" />
-    <AvaloniaResource Include="Assets/link.PNG" />
     <None Remove="Assets\Jinwoo.PNG" />
-    <AvaloniaResource Include="Assets\Jinwoo.PNG" />
     <None Remove="Assets\Vector.svg" />
-    <AvaloniaResource Include="Assets\Vector.svg" />
     <None Remove="Assets\Vector.png" />
-    <AvaloniaResource Include="Assets\Vector.png" />
     <None Remove="Assets\monitor.png" />
-    <AvaloniaResource Include="Assets\monitor.png" />
     <None Remove="Assets\lock-2.png" />
-    <AvaloniaResource Include="Assets\lock-2.png" />
     <None Remove="Assets\monitor-2.png" />
-    <AvaloniaResource Include="Assets\monitor-2.png" />
     <None Remove="Assets\lock-3.png" />
-    <AvaloniaResource Include="Assets\lock-3.png" />
     <None Remove="Assets\monitor-3.png" />
-    <AvaloniaResource Include="Assets\monitor-3.png" />
     <None Remove="Assets\monitor-4.png" />
-    <AvaloniaResource Include="Assets\monitor-4.png" />
     <None Remove="Assets\export.png" />
     <None Remove="Assets\settings-2.png" />
     <None Remove="Assets\export-2.png" />
-    <AvaloniaResource Include="Assets\export-2.png" />
     <None Remove="Assets\setting.png" />
-    <AvaloniaResource Include="Assets\setting.png" />
     <None Remove="Assets\settingggggg.png" />
-    <AvaloniaResource Include="Assets\settingggggg.png" />
     <None Remove="Assets\lockkkkk.png" />
-    <AvaloniaResource Include="Assets\lockkkkk.png" />
     <None Remove="Assets\exportttt.png" />
-    <AvaloniaResource Include="Assets\exportttt.png" />
     <None Remove="Assets\1.png" />
     <None Remove="Assets\2.png" />
     <None Remove="Assets\3.png" />
     <None Remove="Assets\4.png" />
     <None Remove="Assets\playback.png" />
-    <AvaloniaResource Include="Assets\playback.png" />
     <None Remove="Assets\Fonts\AtkinsonHyperlegibleMono-Bold.ttf" />
     <AvaloniaResource Include="Assets\Fonts\AtkinsonHyperlegibleMono-Bold.ttf" />
     <None Remove="Assets\Fonts\AtkinsonHyperlegibleMono-Light.ttf" />
@@ -75,7 +56,18 @@
     <None Remove="Assets\Fonts\DancingScript-Bold.ttf" />
     <AvaloniaResource Include="Assets\Fonts\DancingScript-Bold.ttf" />
     <None Remove="Assets\plus.png" />
-    <AvaloniaResource Include="Assets\plus.png" />
+    <None Remove="Assets\settings_icon.png" />
+    <AvaloniaResource Include="Assets\settings_icon.png" />
+    <None Remove="Assets\monitor_icon.png" />
+    <AvaloniaResource Include="Assets\monitor_icon.png" />
+    <None Remove="Assets\lock_icon.png" />
+    <AvaloniaResource Include="Assets\lock_icon.png" />
+    <None Remove="Assets\export_icon.png" />
+    <AvaloniaResource Include="Assets\export_icon.png" />
+    <None Remove="Assets\cross_icon.png" />
+    <AvaloniaResource Include="Assets\cross_icon.png" />
+    <None Remove="Assets\playback_icon.png" />
+    <AvaloniaResource Include="Assets\playback_icon.png" />
 </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\Fonts\" />

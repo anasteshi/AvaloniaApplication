@@ -65,6 +65,7 @@
 /Users/anastasiiakholodiuk/Desktop/Ava Test/AvaloniaApplication/obj/Debug/net9.0/AvaloniaApplication.AssemblyInfoInputs.cache
 /Users/anastasiiakholodiuk/Desktop/Ava Test/AvaloniaApplication/obj/Debug/net9.0/AvaloniaApplication.AssemblyInfo.cs
 /Users/anastasiiakholodiuk/Desktop/Ava Test/AvaloniaApplication/obj/Debug/net9.0/AvaloniaApplication.csproj.CoreCompileInputs.cache
+/Users/anastasiiakholodiuk/Desktop/Ava Test/AvaloniaApplication/obj/Debug/net9.0/AvaloniaApplication.sourcelink.json
 /Users/anastasiiakholodiuk/Desktop/Ava Test/AvaloniaApplication/obj/Debug/net9.0/Avalonia/AvaloniaApplication.dll
 /Users/anastasiiakholodiuk/Desktop/Ava Test/AvaloniaApplication/obj/Debug/net9.0/Avalonia/AvaloniaApplication.pdb
 /Users/anastasiiakholodiuk/Desktop/Ava Test/AvaloniaApplication/obj/Debug/net9.0/refint/Avalonia/AvaloniaApplication.dll
