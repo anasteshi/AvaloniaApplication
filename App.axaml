@@ -1,0 +1,17 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="AvaloniaApplication.App"
+             RequestedThemeVariant="Default">
+             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+    <Application.Styles>
+        <FluentTheme/>
+        <StyleInclude Source="/LargeLabelControl.axaml"></StyleInclude>
+    </Application.Styles>
+    <Application.Resources>
+        <FontFamily x:Key="AtkinsonMono-Bold">avares://AvaloniaApplication/Assets/Fonts/AtkinsonHyperlegibleMono-Bold.ttf#Atkinson</FontFamily>
+        <FontFamily x:Key="AtkinsonMono-Light">avares://AvaloniaApplication/Assets/Fonts/AtkinsonHyperlegibleMono-Light.ttf#Atkinson</FontFamily>
+        <FontFamily x:Key="DancingScript-Bold">avares://AvaloniaApplication/Assets/Fonts/DancingScript-Bold.ttf#Dancing</FontFamily>
+        <FontFamily x:Key="DancingScript-Regular">avares://AvaloniaApplication/Assets/Fonts/DancingScript-Regular.ttf#Dancing</FontFamily>
+        <SolidColorBrush x:Key="MidPinkBrush">#B43982</SolidColorBrush>
+    </Application.Resources>
+</Application>

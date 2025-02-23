@@ -1,0 +1,87 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.2.1" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.2.1" />
+    <PackageReference Include="Avalonia.Svg.Skia" Version="11.2.0.2" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.1" />
+    <PackageReference Include="Avalonia.Fonts.Inter" Version="11.2.1" />
+    <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+    <PackageReference Include="Avalonia.Diagnostics" Version="11.2.1">
+      <IncludeAssets Condition="'$(Configuration)' != 'Debug'">None</IncludeAssets>
+      <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets/lock.PNG" />
+    <AvaloniaResource Include="Assets/monic.PNG" />
+    <AvaloniaResource Include="Assets/settings.PNG" />
+    <AvaloniaResource Include="Assets/link.PNG" />
+    <None Remove="Assets\Jinwoo.PNG" />
+    <AvaloniaResource Include="Assets\Jinwoo.PNG" />
+    <None Remove="Assets\Vector.svg" />
+    <AvaloniaResource Include="Assets\Vector.svg" />
+    <None Remove="Assets\Vector.png" />
+    <AvaloniaResource Include="Assets\Vector.png" />
+    <None Remove="Assets\monitor.png" />
+    <AvaloniaResource Include="Assets\monitor.png" />
+    <None Remove="Assets\lock-2.png" />
+    <AvaloniaResource Include="Assets\lock-2.png" />
+    <None Remove="Assets\monitor-2.png" />
+    <AvaloniaResource Include="Assets\monitor-2.png" />
+    <None Remove="Assets\lock-3.png" />
+    <AvaloniaResource Include="Assets\lock-3.png" />
+    <None Remove="Assets\monitor-3.png" />
+    <AvaloniaResource Include="Assets\monitor-3.png" />
+    <None Remove="Assets\monitor-4.png" />
+    <AvaloniaResource Include="Assets\monitor-4.png" />
+    <None Remove="Assets\export.png" />
+    <None Remove="Assets\settings-2.png" />
+    <None Remove="Assets\export-2.png" />
+    <AvaloniaResource Include="Assets\export-2.png" />
+    <None Remove="Assets\setting.png" />
+    <AvaloniaResource Include="Assets\setting.png" />
+    <None Remove="Assets\settingggggg.png" />
+    <AvaloniaResource Include="Assets\settingggggg.png" />
+    <None Remove="Assets\lockkkkk.png" />
+    <AvaloniaResource Include="Assets\lockkkkk.png" />
+    <None Remove="Assets\exportttt.png" />
+    <AvaloniaResource Include="Assets\exportttt.png" />
+    <None Remove="Assets\1.png" />
+    <AvaloniaResource Include="Assets\1.png" />
+    <None Remove="Assets\2.png" />
+    <AvaloniaResource Include="Assets\2.png" />
+    <None Remove="Assets\3.png" />
+    <AvaloniaResource Include="Assets\3.png" />
+    <None Remove="Assets\4.png" />
+    <AvaloniaResource Include="Assets\4.png" />
+    <None Remove="Assets\playback.png" />
+    <AvaloniaResource Include="Assets\playback.png" />
+    <None Remove="Assets\Fonts\AtkinsonHyperlegibleMono-Bold.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\AtkinsonHyperlegibleMono-Bold.ttf" />
+    <None Remove="Assets\Fonts\AtkinsonHyperlegibleMono-Light.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\AtkinsonHyperlegibleMono-Light.ttf" />
+    <None Remove="Assets\Fonts\Nunito-VariableFont_wght.ttf" />
+    <None Remove="Assets\Fonts\Nunito-Italic-VariableFont_wght.ttf" />
+    <None Remove="Assets\Fonts\DancingScript-VariableFont_wght.ttf" />
+    <None Remove="Assets\Fonts\DancingScript-SemiBold.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\DancingScript-SemiBold.ttf" />
+    <None Remove="Assets\Fonts\DancingScript-Regular.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\DancingScript-Regular.ttf" />
+    <None Remove="Assets\Fonts\DancingScript-Bold.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\DancingScript-Bold.ttf" />
+    <None Remove="Assets\plus.png" />
+    <AvaloniaResource Include="Assets\plus.png" />
+</ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Fonts\" />
+  </ItemGroup>
+</Project>
