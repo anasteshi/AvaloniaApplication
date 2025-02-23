@@ -56,13 +56,9 @@
     <None Remove="Assets\exportttt.png" />
     <AvaloniaResource Include="Assets\exportttt.png" />
     <None Remove="Assets\1.png" />
-    <AvaloniaResource Include="Assets\1.png" />
     <None Remove="Assets\2.png" />
-    <AvaloniaResource Include="Assets\2.png" />
     <None Remove="Assets\3.png" />
-    <AvaloniaResource Include="Assets\3.png" />
     <None Remove="Assets\4.png" />
-    <AvaloniaResource Include="Assets\4.png" />
     <None Remove="Assets\playback.png" />
     <AvaloniaResource Include="Assets\playback.png" />
     <None Remove="Assets\Fonts\AtkinsonHyperlegibleMono-Bold.ttf" />
