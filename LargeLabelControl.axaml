@@ -11,6 +11,7 @@
     <!-- Set defaults-->
     <Setter Property="Foreground" Value="White"></Setter>
     <Setter Property="Background" Value="{DynamicResource MidPinkBrush}"></Setter>
+    <Setter Property="FontFamily" Value="{DynamicResource Outfit-Light}"></Setter>
     <Setter Property="Template">
       <ControlTemplate>
         <Border Padding="15,7 " Background="{TemplateBinding Background}">

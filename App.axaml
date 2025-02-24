@@ -12,6 +12,22 @@
         <FontFamily x:Key="AtkinsonMono-Light">avares://AvaloniaApplication/Assets/Fonts/AtkinsonHyperlegibleMono-Light.ttf#Atkinson</FontFamily>
         <FontFamily x:Key="DancingScript-Bold">avares://AvaloniaApplication/Assets/Fonts/DancingScript-Bold.ttf#Dancing</FontFamily>
         <FontFamily x:Key="DancingScript-Regular">avares://AvaloniaApplication/Assets/Fonts/DancingScript-Regular.ttf#Dancing</FontFamily>
+        <FontFamily x:Key="Barlow-ExtraBoldItalic">avares://AvaloniaApplication/Assets/Fonts/Barlow-ExtraBoldItalic.ttf#Barlow</FontFamily>
+        <FontFamily x:Key="AtkinsonMono-LightItalic">avares://AvaloniaApplication/Assets/Fonts/AtkinsonHyperlegibleMono-LightItalic.ttf#Atkinson</FontFamily>
+        <FontFamily x:Key="Outfit-Light">avares://AvaloniaApplication/Assets/Fonts/Outfit-Light.ttf#Outfit</FontFamily>
+        <FontFamily x:Key="Barlow-Italic">avares://AvaloniaApplication/Assets/Fonts/Barlow-Italic.ttf#barlow</FontFamily>
+
+
+
         <SolidColorBrush x:Key="MidPinkBrush">#B43982</SolidColorBrush>
+        <SolidColorBrush x:Key="TyrianPurpleBrush">#68104B</SolidColorBrush>
+        <SolidColorBrush x:Key="OrchidPurpleBrush">#B55AD3</SolidColorBrush>
+        <SolidColorBrush x:Key="PalePinkBrush">#FFEDFC</SolidColorBrush>
+        <SolidColorBrush x:Key="DarkRaspberryBrush">#872B68</SolidColorBrush>
+        <SolidColorBrush x:Key="CherryRedBrush">#C30003</SolidColorBrush>
+        <SolidColorBrush x:Key="PlumPinkBrush">#DDA0DD</SolidColorBrush>
+        <SolidColorBrush x:Key="LavenderPurpleBrush">#C480F8</SolidColorBrush>
+        <SolidColorBrush x:Key="NeonVioletBrush">#E8209E</SolidColorBrush>
+        
     </Application.Resources>
 </Application>
