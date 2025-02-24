@@ -69,7 +69,7 @@
             </Grid>
 
             <!-- Main Area -->
-            <Grid Grid.Row="1" ColumnDefinitions="Auto, Auto, *" Background="{DynamicResource DarkRaspberryBrush}">
+            <Grid Grid.Row="1" ColumnDefinitions="Auto, Auto, *" Background="{DynamicResource DarkRaspberryBrush}" Margin="0, 0">
                 <!-- Volume Bar -->
                 <Grid Grid.Column="0" Width="150" RowDefinitions="*, Auto, Auto" Margin="0, 20">
                     
@@ -138,10 +138,10 @@
                    
                     <!-- Volume Bar Buttons -->
                     <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
-                        <Button Classes="small" Margin="0, 0, 20, 0" Height="40" Width="40">
-                            <Image Source="/Assets/playback_icon.png" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
+                        <Button Classes="small" Margin="0, 0, 20, -4" Height="30" Width="30">
+                            <Image Source="/Assets/playback_icon.png" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
                         </Button>
-                        <Button Classes="small">INT-LRA</Button>
+                        <Button Classes="small" Margin="0, 0, 0, -4" >INT-LRA</Button>
 
                     </StackPanel>
                 </Grid>
@@ -158,7 +158,7 @@
                     <controls:LargeLabelControl LargeText="0.7dB" SmallText="TRUE PEAK MAX" Margin="0,0,0,5"></controls:LargeLabelControl>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                         <Button Classes="small" HorizontalAlignment="Center" VerticalAlignment="Center">AUTO</Button>
-                        <Button Classes="small" Margin="20, 0, 0, 0" Height="40" Width="40">
+                        <Button Classes="small" Margin="20, 0, 0, 0" Height="30" Width="30" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <Image Source="/Assets/cross_icon.png" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
                         </Button>
                     </StackPanel>
@@ -167,13 +167,86 @@
                 <Rectangle Grid.Column="2" Fill="{DynamicResource PlumPinkBrush}" Margin="0,0,0,8"></Rectangle>
             </Grid>
             <!-- Bottom Bar -->
-            <Grid Grid.Row="2" Margin="20, 10" ColumnDefinitions="Auto, Auto, *, Auto, Auto, Auto, Auto, Auto">
+            <Grid Grid.Row="2" Margin="20, 10" ColumnDefinitions="Auto, Auto, *, Auto, Auto, Auto, *, Auto">
                 <Button Grid.Column="0" Margin="0,0,8,0">Stereo</Button>
                 <Button Grid.Column="1" FontFamily="{StaticResource DancingScript-Regular}">Youtube</Button>
                 <Button Grid.Column="3" Margin="0,0,8,0">10 SEC</Button>
                 <Button Grid.Column="4" Margin="0,0,8,0">CONTINUOUS</Button>
-                <Rectangle Grid.Column="5" Fill="{DynamicResource LavenderPurpleBrush}" Width="30" Margin="0,0,8,0"></Rectangle>
-                <Rectangle Grid.Column="6" Fill="{DynamicResource NeonVioletBrush}" Width="30"></Rectangle>
+                <Button Grid.Column="5" Margin="20,0,0, 0">
+                    <Button.Styles>
+                        <Style Selector="Button">
+                            <Setter Property="Foreground" Value="Transparent"></Setter>
+                            <Setter Property="Width" Value="40"></Setter>
+                            <Setter Property="Background" Value="Transparent"></Setter>
+                            <Setter Property="Margin" Value="5,0,0,0"></Setter>
+                            <Setter Property="CornerRadius" Value="20"></Setter>
+                            <Setter Property="Height" Value="40"></Setter>
+                        
+                        </Style>
+                        <Style Selector="Button Image">
+                            <Setter Property="Width" Value="40"></Setter>
+                            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                        </Style>
+                        <Style Selector="Button /template/ ContentPresenter">
+                            <Setter Property="Transitions">
+                                <Transitions>
+                                    <TransformOperationsTransition Property="RenderTransform" Duration="0:0:0.2"></TransformOperationsTransition>
+                                </Transitions>
+                            </Setter>
+                        </Style>
+                        <Style Selector="Button:pointerover /template/ ContentPresenter">
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="RenderTransform" Value="scale(1.03)"></Setter>
+                            <Setter Property="Opacity" Value="0.6"></Setter>
+                        </Style>
+                    </Button.Styles>
+                    <Image Source="/Assets/File.png"></Image>
+                </Button>
+                <Grid Grid.Column="6" ColumnDefinitions="Auto, Auto, Auto, Auto, Auto" Width="30" Margin="-30,0,120,0" HorizontalAlignment="Center" >
+                <Grid.Styles>
+                    <Style Selector="Button">
+                        <Setter Property="Foreground" Value="{DynamicResource PlumPinkBrush}"></Setter>
+                        <Setter Property="Width" Value="30"></Setter>
+                        <Setter Property="Height" Value="30"></Setter>
+                        <Setter Property="Background" Value="{DynamicResource LavenderPurpleBrush}"></Setter>
+                        <Setter Property="Margin" Value="5,0,0,0"></Setter>
+                        <Setter Property="CornerRadius" Value="20"></Setter>
+                        
+                    </Style>
+                    <Style Selector="Button Image">
+                        <Setter Property="Width" Value="30"></Setter>
+                        <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                    </Style>
+                    <Style Selector="Button /template/ ContentPresenter">
+                        <Setter Property="Transitions">
+                            <Transitions>
+                                <TransformOperationsTransition Property="RenderTransform" Duration="0:0:0.2"></TransformOperationsTransition>
+                            </Transitions>
+                        </Setter>
+                    </Style>
+                    <Style Selector="Button:pointerover /template/ ContentPresenter">
+                        <Setter Property="Background" Value="{DynamicResource LavenderPurpleBrush}"/>
+                        <Setter Property="RenderTransform" Value="scale(1.03)"></Setter>
+                        <Setter Property="Opacity" Value="0.6"></Setter>
+                    </Style>
+                </Grid.Styles>
+                        
+                        <Button Grid.Column="0">
+                            <Image Source="/Assets/S.png"></Image></Button>
+                        <Button Grid.Column="1">
+                            <Image Source="/Assets/M.png"></Image></Button>
+                        <Button Grid.Column="2">
+                            <Image Source="/Assets/T.png"></Image></Button>
+                        <Button Grid.Column="3">
+                            <Image Source="/Assets/D.png"></Image></Button>
+                        <Button Grid.Column="4">
+                            <Image Source="/Assets/G.png"></Image></Button>
+
+
+                </Grid>
+                <Rectangle Grid.Column="7" Fill="{DynamicResource NeonVioletBrush}" Width="30" Height="30" Margin="0,0,0,0"></Rectangle>
             </Grid>
 
         </Grid>

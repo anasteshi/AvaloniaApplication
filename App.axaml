@@ -16,8 +16,8 @@
         <FontFamily x:Key="AtkinsonMono-LightItalic">avares://AvaloniaApplication/Assets/Fonts/AtkinsonHyperlegibleMono-LightItalic.ttf#Atkinson</FontFamily>
         <FontFamily x:Key="Outfit-Light">avares://AvaloniaApplication/Assets/Fonts/Outfit-Light.ttf#Outfit</FontFamily>
         <FontFamily x:Key="Barlow-Italic">avares://AvaloniaApplication/Assets/Fonts/Barlow-Italic.ttf#barlow</FontFamily>
-
-
+        <FontFamily x:Key="Jacquard-Regular">avares://AvaloniaApplication/Assets/Fonts/Jacquard24-Regular.ttf#Jacquard</FontFamily>
+        
 
         <SolidColorBrush x:Key="MidPinkBrush">#B43982</SolidColorBrush>
         <SolidColorBrush x:Key="TyrianPurpleBrush">#68104B</SolidColorBrush>

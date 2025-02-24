@@ -36,6 +36,20 @@
     <AvaloniaResource Include="Assets\Fonts\Barlow-ExtraBoldItalic.ttf" />
     <AvaloniaResource Include="Assets\Fonts\Outfit-Light.ttf" />
     <AvaloniaResource Include="Assets/Fonts/Barlow-Italic.ttf"/>
+    <None Remove="Assets\D.png" />
+    <AvaloniaResource Include="Assets\D.png" />
+    <None Remove="Assets\G.png" />
+    <AvaloniaResource Include="Assets\G.png" />
+    <None Remove="Assets\M.png" />
+    <AvaloniaResource Include="Assets\M.png" />
+    <None Remove="Assets\S.png" />
+    <AvaloniaResource Include="Assets\S.png" />
+    <None Remove="Assets\T.png" />
+    <AvaloniaResource Include="Assets\T.png" />
+    <None Remove="Assets\Fonts\Jacquard24-Regular.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Jacquard24-Regular.ttf" />
+    <None Remove="Assets\File.png" />
+    <AvaloniaResource Include="Assets\File.png" />
 </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\Fonts\" />
